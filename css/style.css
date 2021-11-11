@@ -1,0 +1,22 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(229, 255, 255,0.5);
+}
+header{
+    display: block;
+    height: 400 px;
+    background-color: #e5ffff ;
+    font-size: 70px;
+    color: #006566;
+}
+a{
+    color: #004c4d;
+}
+main{
+    display: block;
+    padding: 50px;
+    font-size: 25px;
+    line-height: 60px;
+    color: #004c4d;
+    height: 100%;
+}
