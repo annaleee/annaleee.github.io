@@ -1,22 +1,69 @@
 *{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(229, 255, 255,0.5);
+    background-color: rgba(0, 0, 0);
+    color: white;
+    padding: 12px;
 }
+/* ---Start header--- */
 header{
-    display: block;
     height: 400 px;
-    background-color: #e5ffff ;
+    background-color: white ;
     font-size: 70px;
-    color: #006566;
 }
-a{
-    color: #004c4d;
+h1{
+    color: black;
 }
-main{
-    display: block;
-    padding: 50px;
-    font-size: 25px;
-    line-height: 60px;
-    color: #004c4d;
-    height: 100%;
+
+/* ---Start Navigation--- */
+.navigation a{
+    color: black;
+}
+.navigation ul{
+    display:flex;
+    flex-direction: row;
+    font-size: 24pt;
+    align-content: space-around;
+}
+.navigation li{
+    width: 33%;
+    text-align: center;
+}
+.present-page{
+    background-color: rgba(0, 0, 0);
+}
+.present-page a{
+    color: white;
+}
+
+
+/* ---Start Body--- */
+h2{
+    font: bolder;
+    font-size: 18pt;
+    padding:18pt;
+}
+
+h3{
+    font-size: 16pt;
+    padding: 12px;
+}
+
+/* ---Start Introduction--- */
+.self-introduction{
+    padding: 12px;
+    text-align: center;
+}
+
+.education{
+    padding: 24px;
+}
+
+.technical{
+    display: inline-block;
+    border: 1px solid white;
+    width: 30%;
+    height: max-content;
+}
+.technical li{
+    padding: 6pt 12pt;
 }
