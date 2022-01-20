@@ -3,6 +3,13 @@
     background-color: rgba(0, 0, 0);
     color: white;
     padding: 12px;
+    line-height: 24pt;
+}
+main{
+    min-height: 100%;
+}
+ul{
+    list-style-type: disc;
 }
 /* ---Start header--- */
 header{
@@ -11,6 +18,7 @@ header{
     font-size: 70px;
 }
 h1{
+    padding: 24px 48px;
     color: black;
 }
 
@@ -19,6 +27,7 @@ h1{
     color: black;
 }
 .navigation ul{
+    list-style-type: none;
     display:flex;
     flex-direction: row;
     font-size: 24pt;
@@ -26,7 +35,9 @@ h1{
 }
 .navigation li{
     width: 33%;
+    height: 48pt;
     text-align: center;
+    padding: 6pt;
 }
 .present-page{
     background-color: rgba(0, 0, 0);
@@ -55,15 +66,32 @@ h3{
 }
 
 .education{
-    padding: 24px;
+    padding: 24px 48px;
 }
 
 .technical{
     display: inline-block;
+    border-radius: 2pt;
     border: 1px solid white;
     width: 30%;
     height: max-content;
+    margin: 12px;
 }
 .technical li{
+    list-style-type: none;
     padding: 6pt 12pt;
+}
+
+.portfolio{
+    padding: 24px 48px;
+}
+
+.class-projects{
+    padding: 24px 48px;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-size: small;
+    text-align: center;
 }
