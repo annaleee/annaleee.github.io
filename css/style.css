@@ -94,4 +94,24 @@ footer{
     color: white;
     font-size: small;
     text-align: center;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 400px) {
+    h1{
+        display: none;
+    }
+    /* ---Start Navigation--- */
+    .navigation ul{
+        font-size: 12pt;
+    }
+    .technical{
+        display: block;
+        border-radius: 2pt;
+        border: 1px solid rgb(131, 130, 130);
+        width: 70%;
+        height: max-content;
+        margin: 12px;
+    }
+
 }
